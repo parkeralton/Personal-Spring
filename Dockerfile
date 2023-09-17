@@ -1,4 +1,4 @@
-FROM adoptopenjdk:17-jre-hotspot
+FROM amazoncorretto:17
 WORKDIR /app
 COPY target/*.jar app.jar
 EXPOSE 8080
